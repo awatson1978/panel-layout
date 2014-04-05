@@ -1,0 +1,83 @@
+.item{
+  padding: 10px;
+  cursor: move;
+}
+#navbarHeader{
+  z-index: 100;
+}
+#westPanel{
+  margin-left: -250px;
+  left: 250px;
+  width: 250px;
+  background: #eeeeee;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1;
+  transition: all ease 0.4s;
+  border-right: 1px solid lightgray;
+}
+#eastPanel{
+  margin-right: 0px;
+  right: 0;
+  width: 250px;
+  background: #eeeeee;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1;
+  transition: all ease 0.4s;
+  border-right: 1px solid lightgray;
+}
+.topAnchored{
+  position: absolute;
+  margin-top: 51px;
+  top: 0px;
+}
+
+#mainLayout{
+  //padding-left: 250px;
+  transition: all 0.4s ease 0s;
+}
+
+
+//560px
+
+
+#mainPanel{
+  .foo{
+    background-color: red;
+  }
+  .foo:hover{
+    text-decoration: underlined;
+  }
+
+}
+
+// landscape orientation
+@media only screen and (min-width: 1700px) {
+  #eastPanel{
+    display: block;
+  }
+  #westPanel{
+    display: block;
+  }
+}
+
+// portrait orientation
+@media only screen and (max-width: 1700px) {
+  #eastPanel{
+    display: none;
+  }
+  #westPanel{
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #eastPanel{
+    display: none;
+  }
+  #westPanel{
+    display: none;
+  }
+}
