@@ -1,7 +1,6 @@
-## sortable-list-demo  
+## panel-layout
 
-
-Meteor's sortable-list demo, with hacks.  
+Panel layout demo for Meteor, using Blaze.
 
 
 
@@ -9,7 +8,7 @@ Meteor's sortable-list demo, with hacks.
 
 ````md
 # Should be as simple as cloning the repository...  
-git clone https://github.com/awatson1978/sortable-list-demo.git
+git clone https://github.com/awatson1978/panel-layout.git
 
 # And then running it...
 sudo mrt
