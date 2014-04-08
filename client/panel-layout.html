@@ -5,20 +5,33 @@
 <body>
   <div class="hidden">{{resized}}</div>
   <div id="mainLayout">
+    <aside>
+      <div id="errorPanel" class="ui top sidebar alert alert-danger">
+        {{getErrorMessage}}
+      </div>
+    </aside>
     <header id="navbarHeader">
       {{> navbarHeaderNav }}
     </header>
     <div id="northPanel">
     </div>
-    <aside id="westPanel" class="topAnchored">
+    <aside id="westPanel" class="ui sidebar">
+      <div class="padded">
+        <a id="westPanelButtonA" href="#" class="fullwidth btn btn-info">west panel button A</a>
+      </div>
+      <div class="padded">
+        <a id="westPanelButtonB" href="#" class="fullwidth btn btn-info">west panel button B</a>
+      </div>
     </aside>
 
     <div id="mainPanel">
-      <div id="sortableListPanel" class="container">
+      <div id="sortableListPanel">
         <div id="list">
           {{#each items}}
-            <div class="item panel panel-default">
-              {{text}}
+            <div class="item">
+              <div class="item-text">
+                {{text}}
+              </div>
             </div>
           {{/each}}
         </div>
@@ -28,76 +41,23 @@
     <div id="southPanel">
 
     </div>
-    <aside id="eastPanel" class="topAnchored"></aside>
+    <aside id="eastPanel" class="padded ui right sidebar">
+      <div id="eastPanelInfo" class="panel panel-info">
+        <div class="panel-heading">
+          east panel info!
+        </div>
+        <div class="panel-body">
+          lorem ipsum solar et...
+        </div>
+      </div>
+    </aside>
     <footer id="navbarFooter">
-      {{> navbarFooter }}
+      {{> navbarFooterNav }}
     </footer>
+    <aside>
+      <div id="contextPanel" class="ui bottom sidebar">
+
+      </div>
+    </aside>
   </div>
 </body>
-
-<template name="navbarHeaderNav">
-  <nav id="navbarHeaderNav" class="navbar navbar-default" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-</template>
-
-<template name="navbarFooter">
-  <nav id="navbarHeaderNav" class="nnavbar navbar-default navbar-fixed-bottom" role="navigation">
-    <div class="navbar-footer">
-      <ul class="nav navbar-nav">
-        <li><a href="http://www.pentasyllabic.com">Pentasyllabic Studios, LLC</a></li>
-        <li><a href="http://www.pentasyllabic.com">Meteor-Cookbook</a></li>
-      </ul>
-    </div>
-  </nav>
-</template>

@@ -1,38 +1,41 @@
+// sortable list
 .item{
-  padding: 10px;
   cursor: move;
+  border: 1px solid gray;
+  margin: 10px;
 }
+.item-text{
+  padding: 10px !important;
+}
+.ui-sortable-helper{
+  background-color: #eeeeee;
+}
+.ui-sortable-placeholder{
+  margin: 10px !important;
+  padding: 20px !important;
+}
+
+
+// panels
+
 #navbarHeader{
   z-index: 100;
 }
-#westPanel{
-  margin-left: -250px;
-  left: 250px;
-  width: 250px;
-  background: #eeeeee;
-  position: fixed;
-  height: 100%;
-  overflow-y: auto;
-  z-index: 1;
-  transition: all ease 0.4s;
-  border-right: 1px solid lightgray;
-}
 #eastPanel{
-  margin-right: 0px;
-  right: 0;
-  width: 250px;
   background: #eeeeee;
-  position: fixed;
-  height: 100%;
-  overflow-y: auto;
-  z-index: 1;
-  transition: all ease 0.4s;
-  border-right: 1px solid lightgray;
 }
+#westPanel{
+  background: #eeeeee;
+}
+
 .topAnchored{
   position: absolute;
   margin-top: 51px;
   top: 0px;
+}
+
+#mainPanel{
+  bakground-color: red !important;
 }
 
 #mainLayout{
@@ -40,44 +43,38 @@
   transition: all 0.4s ease 0s;
 }
 
-
-//560px
-
+#fullScreenToggleLink{
+  padding-right: 20px !important;
+}
 
 #mainPanel{
-  .foo{
-    background-color: red;
-  }
-  .foo:hover{
-    text-decoration: underlined;
-  }
 
 }
 
 // landscape orientation
 @media only screen and (min-width: 1700px) {
-  #eastPanel{
-    display: block;
-  }
-  #westPanel{
-    display: block;
-  }
+  // #eastPanel{
+  //   display: block;
+  // }
+  // #westPanel{
+  //   display: block;
+  // }
 }
 
 // portrait orientation
 @media only screen and (max-width: 1700px) {
-  #eastPanel{
-    display: none;
-  }
-  #westPanel{
-    display: none;
-  }
+  // #eastPanel{
+  //   display: none;
+  // }
+  // #westPanel{
+  //   display: none;
+  // }
 }
 @media only screen and (max-width: 480px) {
-  #eastPanel{
-    display: none;
-  }
-  #westPanel{
-    display: none;
-  }
+  // #eastPanel{
+  //   display: none;
+  // }
+  // #westPanel{
+  //   display: none;
+  // }
 }
