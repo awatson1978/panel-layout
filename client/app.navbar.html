@@ -1,0 +1,51 @@
+<template name="navbarHeaderNav">
+  <nav id="navbarHeaderNav" class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a id="navbarBrandLink" class="navbar-brand" href="#">Panel Layout</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<!--         <ul class="nav navbar-nav">
+          <li><a href="http://pentasyllabic.com">pentasyllabic.com</a></li>
+          <li><a href="https://github.com/awatson1978/meteor-cookbook">meteor cookbook</a></li>
+          <li><a href="https://github.com/awatson1978/panel-layout"><i class="fa fa-github-alt"></i></a></li>
+        </ul> -->
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a id="eastPanelToggleLink" href="#">Info Panel</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+</template>
+
+
+
+<template name="navbarFooterNav">
+  <nav id="navbarFooterNav" class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+    <div class="container-fluid">
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="http://pentasyllabic.com">pentasyllabic.com</a></li>
+          <li><a href="https://github.com/awatson1978/meteor-cookbook">meteor cookbook</a></li>
+          <li><a href="https://github.com/awatson1978/panel-layout">source code</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a id="fullScreenToggleLink" href="#">Error</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+</template>
