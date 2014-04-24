@@ -6,7 +6,7 @@ Panel layout demo for Meteor, using Blaze.
 
 ####  Installation  
 
-````md
+````sh
 # Should be as simple as cloning the repository...  
 git clone https://github.com/awatson1978/panel-layout.git
 
