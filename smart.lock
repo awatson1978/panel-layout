@@ -5,7 +5,8 @@
       "bootstrap-3": {},
       "font-awesome": {},
       "mousetrap": {},
-      "keybindings": {}
+      "keybindings": {},
+      "bootboxjs": {}
     },
     "packages": {
       "bootstrap-3": {
@@ -27,6 +28,11 @@
         "git": "https://github.com/matteodem/meteor-keybindings.git",
         "tag": "v0.4.1",
         "commit": "d461475eec435acd8b61af6f1b8696fc70fcea78"
+      },
+      "bootboxjs": {
+        "git": "https://github.com/TimHeckel/meteor-bootboxjs.git",
+        "tag": "v4.2.0",
+        "commit": "2b7d18ad028d9e7b37238ecf2a8a7970735cebd1"
       }
     }
   }

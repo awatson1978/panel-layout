@@ -3,6 +3,10 @@
 </head>
 
 <body>
+  {{> promptModal }}
+  {{> confirmModal }}
+  {{> keybindingsModal }}
+
   <div class="hidden">{{resized}}</div>
   <div id="mainLayout">
     <aside>
@@ -23,20 +27,8 @@
         <a id="westPanelButtonB" href="#" class="fullwidth btn btn-info">west panel button B</a>
       </div>
     </aside>
-
-    <div id="mainPanel">
-      <div id="sortableListPanel">
-        <div id="list">
-          {{#each items}}
-            <div class="item">
-              <div class="item-text">
-                {{text}}
-              </div>
-            </div>
-          {{/each}}
-        </div>
-      </div>
-    </div>
+    {{> inPageAlert }}
+    {{> mainPanel }}
 
     <div id="southPanel">
 
@@ -61,3 +53,21 @@
     </aside>
   </div>
 </body>
+
+
+
+<template name="mainPanel">
+  <div id="mainPanel">
+    <div id="sortableListPanel">
+      <div id="list">
+        {{#each items}}
+          <div class="item">
+            <div class="item-text">
+              {{text}}
+            </div>
+          </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</template>
