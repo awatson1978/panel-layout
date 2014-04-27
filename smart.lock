@@ -3,7 +3,9 @@
   "dependencies": {
     "basePackages": {
       "bootstrap-3": {},
-      "font-awesome": {}
+      "font-awesome": {},
+      "mousetrap": {},
+      "keybindings": {}
     },
     "packages": {
       "bootstrap-3": {
@@ -15,6 +17,16 @@
         "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
         "tag": "v4.0.3",
         "commit": "61e9361384347547ae144f8228faa4deffda23db"
+      },
+      "mousetrap": {
+        "git": "https://github.com/awatson1978/mousetrap.git",
+        "tag": "v1.5.2",
+        "commit": "77fef1e9dd64fc99cf0fc128dcb10d038c0fe860"
+      },
+      "keybindings": {
+        "git": "https://github.com/matteodem/meteor-keybindings.git",
+        "tag": "v0.4.1",
+        "commit": "d461475eec435acd8b61af6f1b8696fc70fcea78"
       }
     }
   }

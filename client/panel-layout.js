@@ -1,7 +1,6 @@
 UI.body.items = Items.find({}, { sort: { rank: 1 } });
 
 
-
 UI.body.rendered = function () {
   $(this.find('#list')).sortable({ // uses the 'sortable' interaction from jquery ui
     stop: function (event, ui) { // fired when an item is dropped
@@ -19,10 +18,11 @@ UI.body.rendered = function () {
           UI.getElementData(before).rank,
           UI.getElementData(after).rank);
       }
-
       Items.update(UI.getElementData(el)._id, {$set: {rank: newRank}});
     }
   });
+
+
 };
 
 
@@ -34,12 +34,6 @@ Meteor.startup(function () {
 });
 
 UI.body.resized = function(){
-  //var width = $(window).width();
-  //var height = $(window).height();
-
-  //var panelWidth = (width - 1200) * 0.5;
-  //$('#eastPanel').width(panelWidth);
-  //$('#westPanel').width(panelWidth);
 
   $('#westPanel').sidebar();
   $('#eastPanel')
@@ -53,13 +47,3 @@ UI.body.resized = function(){
 UI.body.getErrorMessage = function(){
   return "Error Message!";
 };
-
-// UI.body.getRandomColor = function(){
-//   return '#'+Math.floor(Math.random()*16777215).toString(16);
-// };
-
-// UI.body.events({
-//   'keydown': function(){
-//     alert('keypress!');
-//   }
-// });
