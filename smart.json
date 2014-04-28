@@ -4,6 +4,7 @@
     "font-awesome": {},
     "mousetrap": {},
     "keybindings": {},
-    "bootboxjs": {}
+    "bootboxjs": {},
+    "semantic-ui-sidebar": {}
   }
 }

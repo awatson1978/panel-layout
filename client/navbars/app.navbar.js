@@ -19,7 +19,3 @@ Template.navbarHeaderNav.events({
   }
 
 });
-
-
-Template.navbarFooterNav.events({
-});

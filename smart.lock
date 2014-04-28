@@ -6,7 +6,8 @@
       "font-awesome": {},
       "mousetrap": {},
       "keybindings": {},
-      "bootboxjs": {}
+      "bootboxjs": {},
+      "semantic-ui-sidebar": {}
     },
     "packages": {
       "bootstrap-3": {
@@ -33,6 +34,11 @@
         "git": "https://github.com/TimHeckel/meteor-bootboxjs.git",
         "tag": "v4.2.0",
         "commit": "2b7d18ad028d9e7b37238ecf2a8a7970735cebd1"
+      },
+      "semantic-ui-sidebar": {
+        "git": "https://github.com/awatson1978/semantic-ui-sidebar.git",
+        "tag": "v0.1.2",
+        "commit": "2f5a2d19d6ce501ce3afbcaa7c89c0948dc74663"
       }
     }
   }
