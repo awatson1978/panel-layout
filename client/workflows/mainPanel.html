@@ -1,0 +1,16 @@
+
+<template name="mainPanel">
+  <div id="mainPanel">
+    <div id="sortableListPanel">
+      <div id="list">
+        {{#each items}}
+          <div class="item">
+            <div class="item-text">
+              {{text}}
+            </div>
+          </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</template>

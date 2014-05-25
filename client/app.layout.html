@@ -1,0 +1,50 @@
+<head>
+  <title>Panel Layout</title>
+</head>
+
+<body>
+  {{> promptModal }}
+  {{> confirmModal }}
+  {{> keybindingsModal }}
+
+  <div class="hidden">{{resized}}</div>
+  <div id="mainLayout" class="with-navbar-offset">
+    <aside>
+      <div id="errorPanel" class="ui top sidebar alert alert-danger">
+        {{getErrorMessage}}
+      </div>
+    </aside>
+    {{> navbarHeader }}
+    {{> westPanel }}
+    {{> inPageAlert }}
+    {{> mainPanel }}
+    {{> eastPanel }}
+
+    {{> navbarFooter }}
+  </div>
+</body>
+
+
+<template name="westPanel">
+  <aside id="westPanel" class="ui sidebar with-navbar-offset">
+    <div class="padded">
+      <a id="westPanelButtonA" href="#" class="fullwidth btn btn-info">west panel button A</a>
+    </div>
+    <div class="padded">
+      <a id="westPanelButtonB" href="#" class="fullwidth btn btn-info">west panel button B</a>
+    </div>
+  </aside>
+</template>
+
+<template name="eastPanel">
+  <aside id="eastPanel" class="padded ui right sidebar with-navbar-offset">
+    <div id="eastPanelInfo" class="panel panel-info">
+      <div class="panel-heading">
+        east panel info!
+      </div>
+      <div class="panel-body">
+        lorem ipsum solar et...
+      </div>
+    </div>
+  </aside>
+</template>
