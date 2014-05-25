@@ -1,6 +1,7 @@
 Template.navbarHeader.events({
   'click #navbarBrandLink':function(){
-    $('#westPanel').sidebar('toggle');
+    //$('#westPanel').sidebar('toggle');
+    toggleWestPanel();
   },
   'click #keybindingsLink':function(){
     $('#keybindingsModal').modal("show");
@@ -15,7 +16,8 @@ Template.navbarHeader.events({
     $('#errorPanel').sidebar('toggle');
   },
   'click #eastPanelToggleLink':function(){
-    $('#eastPanel').sidebar('toggle');
+    //$('#eastPanel').sidebar('toggle');
+    toggleEastPanel();
   }
 
 });
@@ -23,28 +25,9 @@ Template.navbarHeader.events({
 
 Template.navbarFooter.events({
   'click #westPanelToggle':function(){
-    // alert('west');
-    //$('body').addClass('pushed');
-    if($('body').hasClass('leftSidebar')){
-      $('body').removeClass('leftSidebar');
-      $('#westPanel').removeClass('active');
-    }else{
-      $('body').addClass('leftSidebar');
-      $('#westPanel').addClass('active');
-    }
+    toggleWestPanel();
   },
   'click #eastPanelToggle':function(){
-    // alert('east');
-    //$('body').addClass('pushed');
-    //$('body').addClass('rightSidebar');
-    if($('body').hasClass('rightSidebar')){
-      $('body').removeClass('rightSidebar');
-      $('#eastPanel').removeClass('active');
-    }else{
-      $('body').addClass('rightSidebar');
-      $('#eastPanel').addClass('active');
-    }
-
+    toggleEastPanel();
   }
-
 });
