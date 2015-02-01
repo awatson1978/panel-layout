@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="appLayout.walkthrough"
+             errors="0"
+             failures="0"
+             tests="1">
+  
+  <testsuite errors="0" failures="0" hostname="" id=""
+    name="ActiveRecord::Table Walkthrough" package="appLayout.walkthrough" skipped="0"
+    tests="1" time="" timestamp="">
+    
+    
+      <testcase name="Element &lt;body&gt; was visible after 100 milliseconds.">
+        
+        
+      </testcase>
+    
+    
+    </testsuite>
+  
+</testsuites>

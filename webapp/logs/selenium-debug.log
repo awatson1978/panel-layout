@@ -1,0 +1,28 @@
+Feb 1, 2015 4:19:44 PM org.openqa.grid.selenium.GridLauncher main
+INFO: Launching a standalone server
+Setting system property webdriver.chrome.driver to selenium/chromedriver
+16:19:44.855 INFO - Java: Apple Inc. 20.65-b04-466.1
+16:19:44.855 INFO - OS: Mac OS X 10.10.1 x86_64
+16:19:44.868 INFO - v2.42.0, with Core v2.42.0. Built from revision 5e82430
+16:19:44.926 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match with current platform: MAC
+16:19:44.978 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+16:19:44.979 INFO - Version Jetty/5.1.x
+16:19:44.980 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+16:19:44.981 INFO - Started HttpContext[/selenium-server,/selenium-server]
+16:19:44.981 INFO - Started HttpContext[/,/]
+16:19:45.023 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@1f25fefa
+16:19:45.023 INFO - Started HttpContext[/wd,/wd]
+16:19:45.029 INFO - Started SocketListener on 0.0.0.0:4444
+16:19:45.029 INFO - Started org.openqa.jetty.jetty.Server@7c4c51
+16:19:45.200 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, name=App Layout Walkthrough}]])
+16:19:45.215 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, name=App Layout Walkthrough}]
+16:19:48.178 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, name=App Layout Walkthrough}]]
+16:19:48.186 INFO - Executing: [get: http://localhost:3000])
+16:19:48.549 INFO - Done: [get: http://localhost:3000]
+16:19:48.555 INFO - Executing: [find element: By.selector: body])
+16:19:48.636 INFO - Done: [find element: By.selector: body]
+16:19:48.641 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (cceef974-bf0c-4346-8467-8d79e0deda3e)] -> css selector: body]])
+16:19:48.651 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (cceef974-bf0c-4346-8467-8d79e0deda3e)] -> css selector: body]]
+16:19:50.667 INFO - Executing: [delete session: 329d1f8e-5cbf-433c-8bb6-c3c65e04fe52])
+16:19:50.745 INFO - Done: [delete session: 329d1f8e-5cbf-433c-8bb6-c3c65e04fe52]
+16:19:50.761 INFO - Shutting down...
