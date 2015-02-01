@@ -3,7 +3,12 @@
 Panel layout demo for Meteor, using Blaze.
 
 
+=====================================
+####  Version  
+Meteor 1.0.3.1
 
+
+=====================================
 ####  Installation  
 
 ````sh
@@ -11,10 +16,10 @@ Panel layout demo for Meteor, using Blaze.
 git clone https://github.com/awatson1978/panel-layout.git
 
 # And then running it...
-sudo mrt
+meteor
 ````
 
-Licensing
-------------------------
+=====================================
+####  Installation  
 
 MIT License. Use as you wish, including for commercial purposes.
