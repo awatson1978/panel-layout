@@ -1,6 +1,8 @@
 ## panel-layout
 
-Panel layout demo for Meteor, using Blaze.
+Panel layout and basic boilerplate for iPad and Thunderbold sized displays.  
+
+https://travis-ci.org/awatson1978/panel-layout.svg?branch=master  
 
 
 =====================================

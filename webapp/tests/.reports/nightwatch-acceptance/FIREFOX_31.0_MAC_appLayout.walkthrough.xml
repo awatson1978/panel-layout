@@ -1,15 +1,137 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites name="appLayout.walkthrough"
              errors="0"
-             failures="0"
-             tests="1">
+             failures="1"
+             tests="25">
   
-  <testsuite errors="0" failures="0" hostname="" id=""
+  <testsuite errors="0" failures="1" hostname="" id=""
     name="ActiveRecord::Table Walkthrough" package="appLayout.walkthrough" skipped="0"
-    tests="1" time="" timestamp="">
+    tests="25" time="" timestamp="">
     
     
-      <testcase name="Element &lt;body&gt; was visible after 100 milliseconds.">
+      <testcase name="Element &lt;body&gt; was visible after 75 milliseconds.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#navbarHeader&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#navbarHeaderNav&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#westPanel&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#eastPanel&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#mainPanel&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#mainLayout&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#navbarFooter&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#navbarFooterNav&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#navbarBrandLink&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#keybindingsLink&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#promptLink&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#confirmLink&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#errorToggleLink&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#eastPanelToggleLink&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#sortableListPanel&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#sortableListPanel #list&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#sortableListPanel #list .item:nth-child(1)&gt; contains text: &quot;penecillin&quot;.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#sortableListPanel #list .item:nth-child(2)&gt; contains text: &quot;teracycline&quot;.">
+        
+          <failure message="Expected &quot;teracycline&quot; but got: &quot;tetracycline&quot;"></failure>
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#sortableListPanel #list .item:nth-child(3)&gt; contains text: &quot;epinephrine&quot;.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#sortableListPanel #list .item:nth-child(4)&gt; contains text: &quot;vitamin d&quot;.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#sortableListPanel #list .item:nth-child(5)&gt; contains text: &quot;peptol bismol&quot;.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#sortableListPanel #list .item:nth-child(6)&gt; contains text: &quot;claritin&quot;.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#sortableListPanel #list .item:nth-child(7)&gt; contains text: &quot;dihydrogen monoxide&quot;.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#sortableListPanel #list .item:nth-child(8)&gt; contains text: &quot;asprin&quot;.">
         
         
       </testcase>

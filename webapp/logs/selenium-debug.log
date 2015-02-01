@@ -1,28 +1,91 @@
-Feb 1, 2015 4:19:44 PM org.openqa.grid.selenium.GridLauncher main
+Feb 1, 2015 4:35:16 PM org.openqa.grid.selenium.GridLauncher main
 INFO: Launching a standalone server
 Setting system property webdriver.chrome.driver to selenium/chromedriver
-16:19:44.855 INFO - Java: Apple Inc. 20.65-b04-466.1
-16:19:44.855 INFO - OS: Mac OS X 10.10.1 x86_64
-16:19:44.868 INFO - v2.42.0, with Core v2.42.0. Built from revision 5e82430
-16:19:44.926 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match with current platform: MAC
-16:19:44.978 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-16:19:44.979 INFO - Version Jetty/5.1.x
-16:19:44.980 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
-16:19:44.981 INFO - Started HttpContext[/selenium-server,/selenium-server]
-16:19:44.981 INFO - Started HttpContext[/,/]
-16:19:45.023 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@1f25fefa
-16:19:45.023 INFO - Started HttpContext[/wd,/wd]
-16:19:45.029 INFO - Started SocketListener on 0.0.0.0:4444
-16:19:45.029 INFO - Started org.openqa.jetty.jetty.Server@7c4c51
-16:19:45.200 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, name=App Layout Walkthrough}]])
-16:19:45.215 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, name=App Layout Walkthrough}]
-16:19:48.178 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, name=App Layout Walkthrough}]]
-16:19:48.186 INFO - Executing: [get: http://localhost:3000])
-16:19:48.549 INFO - Done: [get: http://localhost:3000]
-16:19:48.555 INFO - Executing: [find element: By.selector: body])
-16:19:48.636 INFO - Done: [find element: By.selector: body]
-16:19:48.641 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (cceef974-bf0c-4346-8467-8d79e0deda3e)] -> css selector: body]])
-16:19:48.651 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (cceef974-bf0c-4346-8467-8d79e0deda3e)] -> css selector: body]]
-16:19:50.667 INFO - Executing: [delete session: 329d1f8e-5cbf-433c-8bb6-c3c65e04fe52])
-16:19:50.745 INFO - Done: [delete session: 329d1f8e-5cbf-433c-8bb6-c3c65e04fe52]
-16:19:50.761 INFO - Shutting down...
+16:35:16.201 INFO - Java: Apple Inc. 20.65-b04-466.1
+16:35:16.201 INFO - OS: Mac OS X 10.10.1 x86_64
+16:35:16.215 INFO - v2.42.0, with Core v2.42.0. Built from revision 5e82430
+16:35:16.276 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match with current platform: MAC
+16:35:16.329 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+16:35:16.330 INFO - Version Jetty/5.1.x
+16:35:16.331 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+16:35:16.332 INFO - Started HttpContext[/selenium-server,/selenium-server]
+16:35:16.332 INFO - Started HttpContext[/,/]
+16:35:16.371 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@379e8f17
+16:35:16.371 INFO - Started HttpContext[/wd,/wd]
+16:35:16.377 INFO - Started SocketListener on 0.0.0.0:4444
+16:35:16.378 INFO - Started org.openqa.jetty.jetty.Server@7a148bd3
+16:35:16.551 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, name=App Layout Walkthrough}]])
+16:35:16.565 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, name=App Layout Walkthrough}]
+16:35:19.165 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=firefox, name=App Layout Walkthrough}]]
+16:35:19.174 INFO - Executing: [get: http://localhost:3000])
+16:35:19.750 INFO - Done: [get: http://localhost:3000]
+16:35:19.757 INFO - Executing: [find element: By.selector: body])
+16:35:19.814 INFO - Done: [find element: By.selector: body]
+16:35:19.817 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (a74f8fa0-ad4d-ec40-8f68-bc4c0e74141c)] -> css selector: body]])
+16:35:19.827 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (a74f8fa0-ad4d-ec40-8f68-bc4c0e74141c)] -> css selector: body]]
+16:35:19.838 INFO - Executing: [find element: By.selector: #navbarHeader])
+16:35:19.844 INFO - Done: [find element: By.selector: #navbarHeader]
+16:35:19.848 INFO - Executing: [find element: By.selector: #navbarHeaderNav])
+16:35:19.856 INFO - Done: [find element: By.selector: #navbarHeaderNav]
+16:35:19.859 INFO - Executing: [find element: By.selector: #westPanel])
+16:35:19.866 INFO - Done: [find element: By.selector: #westPanel]
+16:35:19.869 INFO - Executing: [find element: By.selector: #eastPanel])
+16:35:19.877 INFO - Done: [find element: By.selector: #eastPanel]
+16:35:19.881 INFO - Executing: [find element: By.selector: #mainPanel])
+16:35:19.889 INFO - Done: [find element: By.selector: #mainPanel]
+16:35:19.892 INFO - Executing: [find element: By.selector: #mainLayout])
+16:35:19.899 INFO - Done: [find element: By.selector: #mainLayout]
+16:35:19.902 INFO - Executing: [find element: By.selector: #navbarFooter])
+16:35:19.910 INFO - Done: [find element: By.selector: #navbarFooter]
+16:35:19.913 INFO - Executing: [find element: By.selector: #navbarFooterNav])
+16:35:19.920 INFO - Done: [find element: By.selector: #navbarFooterNav]
+16:35:19.923 INFO - Executing: [find element: By.selector: #navbarBrandLink])
+16:35:19.929 INFO - Done: [find element: By.selector: #navbarBrandLink]
+16:35:19.932 INFO - Executing: [find element: By.selector: #keybindingsLink])
+16:35:19.939 INFO - Done: [find element: By.selector: #keybindingsLink]
+16:35:19.942 INFO - Executing: [find element: By.selector: #promptLink])
+16:35:19.948 INFO - Done: [find element: By.selector: #promptLink]
+16:35:19.959 INFO - Executing: [find element: By.selector: #confirmLink])
+16:35:19.968 INFO - Done: [find element: By.selector: #confirmLink]
+16:35:19.972 INFO - Executing: [find element: By.selector: #errorToggleLink])
+16:35:19.978 INFO - Done: [find element: By.selector: #errorToggleLink]
+16:35:19.981 INFO - Executing: [find element: By.selector: #eastPanelToggleLink])
+16:35:19.986 INFO - Done: [find element: By.selector: #eastPanelToggleLink]
+16:35:19.990 INFO - Executing: [find element: By.selector: #sortableListPanel])
+16:35:19.997 INFO - Done: [find element: By.selector: #sortableListPanel]
+16:35:20.001 INFO - Executing: [find element: By.selector: #sortableListPanel #list])
+16:35:20.007 INFO - Done: [find element: By.selector: #sortableListPanel #list]
+16:35:20.010 INFO - Executing: [find element: By.selector: #sortableListPanel #list .item:nth-child(1)])
+16:35:20.016 INFO - Done: [find element: By.selector: #sortableListPanel #list .item:nth-child(1)]
+16:35:20.018 INFO - Executing: [get text: 17 [[FirefoxDriver: firefox on MAC (a74f8fa0-ad4d-ec40-8f68-bc4c0e74141c)] -> css selector: #sortableListPanel #list .item:nth-child(1)]])
+16:35:20.031 INFO - Done: [get text: 17 [[FirefoxDriver: firefox on MAC (a74f8fa0-ad4d-ec40-8f68-bc4c0e74141c)] -> css selector: #sortableListPanel #list .item:nth-child(1)]]
+16:35:20.034 INFO - Executing: [find element: By.selector: #sortableListPanel #list .item:nth-child(2)])
+16:35:20.039 INFO - Done: [find element: By.selector: #sortableListPanel #list .item:nth-child(2)]
+16:35:20.042 INFO - Executing: [get text: 18 [[FirefoxDriver: firefox on MAC (a74f8fa0-ad4d-ec40-8f68-bc4c0e74141c)] -> css selector: #sortableListPanel #list .item:nth-child(2)]])
+16:35:20.053 INFO - Done: [get text: 18 [[FirefoxDriver: firefox on MAC (a74f8fa0-ad4d-ec40-8f68-bc4c0e74141c)] -> css selector: #sortableListPanel #list .item:nth-child(2)]]
+16:35:20.058 INFO - Executing: [find element: By.selector: #sortableListPanel #list .item:nth-child(3)])
+16:35:20.064 INFO - Done: [find element: By.selector: #sortableListPanel #list .item:nth-child(3)]
+16:35:20.067 INFO - Executing: [get text: 19 [[FirefoxDriver: firefox on MAC (a74f8fa0-ad4d-ec40-8f68-bc4c0e74141c)] -> css selector: #sortableListPanel #list .item:nth-child(3)]])
+16:35:20.077 INFO - Done: [get text: 19 [[FirefoxDriver: firefox on MAC (a74f8fa0-ad4d-ec40-8f68-bc4c0e74141c)] -> css selector: #sortableListPanel #list .item:nth-child(3)]]
+16:35:20.081 INFO - Executing: [find element: By.selector: #sortableListPanel #list .item:nth-child(4)])
+16:35:20.087 INFO - Done: [find element: By.selector: #sortableListPanel #list .item:nth-child(4)]
+16:35:20.089 INFO - Executing: [get text: 20 [[FirefoxDriver: firefox on MAC (a74f8fa0-ad4d-ec40-8f68-bc4c0e74141c)] -> css selector: #sortableListPanel #list .item:nth-child(4)]])
+16:35:20.099 INFO - Done: [get text: 20 [[FirefoxDriver: firefox on MAC (a74f8fa0-ad4d-ec40-8f68-bc4c0e74141c)] -> css selector: #sortableListPanel #list .item:nth-child(4)]]
+16:35:20.102 INFO - Executing: [find element: By.selector: #sortableListPanel #list .item:nth-child(5)])
+16:35:20.108 INFO - Done: [find element: By.selector: #sortableListPanel #list .item:nth-child(5)]
+16:35:20.110 INFO - Executing: [get text: 21 [[FirefoxDriver: firefox on MAC (a74f8fa0-ad4d-ec40-8f68-bc4c0e74141c)] -> css selector: #sortableListPanel #list .item:nth-child(5)]])
+16:35:20.121 INFO - Done: [get text: 21 [[FirefoxDriver: firefox on MAC (a74f8fa0-ad4d-ec40-8f68-bc4c0e74141c)] -> css selector: #sortableListPanel #list .item:nth-child(5)]]
+16:35:20.124 INFO - Executing: [find element: By.selector: #sortableListPanel #list .item:nth-child(6)])
+16:35:20.133 INFO - Done: [find element: By.selector: #sortableListPanel #list .item:nth-child(6)]
+16:35:20.136 INFO - Executing: [get text: 22 [[FirefoxDriver: firefox on MAC (a74f8fa0-ad4d-ec40-8f68-bc4c0e74141c)] -> css selector: #sortableListPanel #list .item:nth-child(6)]])
+16:35:20.146 INFO - Done: [get text: 22 [[FirefoxDriver: firefox on MAC (a74f8fa0-ad4d-ec40-8f68-bc4c0e74141c)] -> css selector: #sortableListPanel #list .item:nth-child(6)]]
+16:35:20.149 INFO - Executing: [find element: By.selector: #sortableListPanel #list .item:nth-child(7)])
+16:35:20.155 INFO - Done: [find element: By.selector: #sortableListPanel #list .item:nth-child(7)]
+16:35:20.157 INFO - Executing: [get text: 23 [[FirefoxDriver: firefox on MAC (a74f8fa0-ad4d-ec40-8f68-bc4c0e74141c)] -> css selector: #sortableListPanel #list .item:nth-child(7)]])
+16:35:20.168 INFO - Done: [get text: 23 [[FirefoxDriver: firefox on MAC (a74f8fa0-ad4d-ec40-8f68-bc4c0e74141c)] -> css selector: #sortableListPanel #list .item:nth-child(7)]]
+16:35:20.172 INFO - Executing: [find element: By.selector: #sortableListPanel #list .item:nth-child(8)])
+16:35:20.180 INFO - Done: [find element: By.selector: #sortableListPanel #list .item:nth-child(8)]
+16:35:20.182 INFO - Executing: [get text: 24 [[FirefoxDriver: firefox on MAC (a74f8fa0-ad4d-ec40-8f68-bc4c0e74141c)] -> css selector: #sortableListPanel #list .item:nth-child(8)]])
+16:35:20.195 INFO - Done: [get text: 24 [[FirefoxDriver: firefox on MAC (a74f8fa0-ad4d-ec40-8f68-bc4c0e74141c)] -> css selector: #sortableListPanel #list .item:nth-child(8)]]
+16:35:20.198 INFO - Executing: [delete session: 5c3d4c8d-ed3b-45ad-963e-482a422261bb])
+16:35:20.275 INFO - Done: [delete session: 5c3d4c8d-ed3b-45ad-963e-482a422261bb]
