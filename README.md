@@ -2,7 +2,7 @@
 
 Panel layout and basic boilerplate for iPad and Thunderbold sized displays.  
 
-https://travis-ci.org/awatson1978/panel-layout.svg?branch=master  
+![travis-build](https://travis-ci.org/awatson1978/panel-layout.svg?branch=master)   
 
 
 =====================================
