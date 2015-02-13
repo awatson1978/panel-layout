@@ -5,7 +5,9 @@ Meteor.startup(function () {
   });
 });
 
-UI.body.resized = function(){
+UI.body.helpers({
+
+  resized: function(){
 
   $('#westPanel').sidebar();
   $('#eastPanel')
@@ -15,11 +17,13 @@ UI.body.resized = function(){
   $('#contextPanel').sidebar();
 
   return Session.get('resize');
-};
-UI.body.getErrorMessage = function(){
-  return "Error Message!";
-};
+  },
 
+  getErrorMessage: function(){
+    return "Error Message!";
+  }
+
+});
 
 //----------------------------------------------
 // helper functions

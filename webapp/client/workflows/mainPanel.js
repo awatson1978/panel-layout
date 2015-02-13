@@ -1,4 +1,8 @@
-
+Template.mainPanel.helpers({
+  items: function(){
+    return Items.find({}, { sort: { rank: 1 } });
+}
+});
 
 Template.mainPanel.rendered = function () {
   $(this.find('#list')).sortable({ // uses the 'sortable' interaction from jquery ui
@@ -7,20 +11,18 @@ Template.mainPanel.rendered = function () {
 
       var newRank;
       if (!before) { // moving to the top of the list
-        newRank = SimpleRationalRanks.beforeFirst(UI.getElementData(after).rank);
+        newRank = SimpleRationalRanks.beforeFirst(UI.getData(after).rank);
 
       } else if (!after) { // moving to the bottom of the list
-        newRank = SimpleRationalRanks.afterLast(UI.getElementData(before).rank);
+        newRank = SimpleRationalRanks.afterLast(UI.getData(before).rank);
 
       } else {
         newRank = SimpleRationalRanks.between(
-          UI.getElementData(before).rank,
-          UI.getElementData(after).rank);
+          UI.getData(before).rank,
+          UI.getData(after).rank);
       }
-      Items.update(UI.getElementData(el)._id, {$set: {rank: newRank}});
+      Items.update(UI.getData(el)._id, {$set: {rank: newRank}});
     }
   });
 };
-Template.mainPanel.items = function(){
-    return Items.find({}, { sort: { rank: 1 } });
-};
+
